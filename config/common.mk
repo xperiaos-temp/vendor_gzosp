@@ -204,7 +204,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(XPERIA_MOD_VERSION) \
     ro.xperia.buildtype=$(XPERIA_BUILD_TYPE)
 
-# Google sounds
-include vendor/xperia/google/GoogleAudio.mk
-
 EXTENDED_POST_PROCESS_PROPS := vendor/xperia/tools/xperia_process_props.py
+
+# XperiaOS
+include vendor/xperia/audio/audio.mk
