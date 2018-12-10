@@ -101,9 +101,7 @@ PRODUCT_PACKAGES += \
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     Calculator \
-    LatinIME \
-    BluetoothExt \
-    Launcher3Dark
+    BluetoothExt
 
 include build/target/product/core.mk
 
@@ -175,3 +173,4 @@ EXTENDED_POST_PROCESS_PROPS := vendor/xperia/tools/xperia_process_props.py
 
 # XperiaOS
 include vendor/xperia/audio/audio.mk
+$(call inherit-product, vendor/xperia/xapps/xapps.mk)
