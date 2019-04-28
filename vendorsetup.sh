@@ -1,3 +1,3 @@
-. "$(gettop)/vendor/gzosp/build/envsetup.sh"
+. "$(gettop)/vendor/xperia/build/envsetup.sh"
 
-gzosp_device_combos
+xperia_device_combos
